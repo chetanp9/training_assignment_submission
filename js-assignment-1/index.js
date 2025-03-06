@@ -38,7 +38,7 @@ function saveScores(){
 
     // reseting the current score after saving it to saved scored
     score[currentplayer].current = 0;
-    if (score[currentplayer].saved >= 20){//seting up the winning condition{
+    if (score[currentplayer].saved >= 100){//seting up the winning condition{
         document.getElementById('winner').innerText = `${document.getElementById(`player${currentplayer}-name`).value} Wins!`;
         disableButtons(); // calling the funtion for disabling the buttons
     }
