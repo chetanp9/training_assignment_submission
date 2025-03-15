@@ -1,5 +1,6 @@
 import java.util.Scanner;
-@SuppressWarnings("ALL")
+//program to print the Fibonacci sequence up to a specified number.
+
 public class Question4 {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);

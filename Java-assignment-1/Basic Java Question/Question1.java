@@ -1,5 +1,8 @@
+//a program to calculate the area of a circle, rectangle, or triangle based on user input.
+
+
 import java.util.Scanner;
-@SuppressWarnings("ALL")
+
 public  class Question1{
     public static float circleArea(float r){
         return (float) (3.14*r*r);

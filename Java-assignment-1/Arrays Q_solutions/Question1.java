@@ -1,3 +1,6 @@
+//a program to find the average of elements in an array.
+
+
 import java.util.Arrays;
 
 public class Question1 {

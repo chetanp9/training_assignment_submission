@@ -10,7 +10,7 @@ public class Question1 {
         System.out.print("Enter a number to check if it's prime: ");
         int num = scanner.nextInt();
         
-        // Validate input
+        
         if (num < 0) {
             System.out.println("Please enter a non-negative integer.");
         } else {
@@ -26,11 +26,7 @@ public class Question1 {
         scanner.close();
     }
 
-    /**
-     * Determines if a number is prime.
-     * @param num The number to check.
-     * @return True if prime, false otherwise.
-     */
+  
     public static boolean isPrime(int num) {
         if (num <= 1) {
             return false;

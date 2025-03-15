@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-@SuppressWarnings("all")
+//oops to print patterns like a triangle
 public  class Question5 {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);

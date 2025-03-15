@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//a for loop to print a multiplication table.
 public class Question3 {
     public static void main(String[] args) {
         int number=0;

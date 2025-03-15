@@ -1,4 +1,4 @@
-//a program to demonstrate the use of arithmetic, logical, and relational operators.
+//program to demonstrate the use of arithmetic, logical, and relational operators.
 
 public class Question1 {
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class Question1 {
         System.out.println("Division: " + (a / b));
         System.out.println("Modulus: " + (a % b));
 
-        // Relational Operators
+        
         System.out.println("\nRelational Operators:");
         System.out.println("a > b: " + (a > b));
         System.out.println("a < b: " + (a < b));
@@ -21,7 +21,7 @@ public class Question1 {
         System.out.println("a == b: " + (a == b));
         System.out.println("a != b: " + (a != b));
 
-        // Logical Operators
+       
         boolean x = true, y = false;
         System.out.println("\nLogical Operators:");
         System.out.println("x AND y: " + (x && y));

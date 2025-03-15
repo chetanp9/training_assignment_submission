@@ -1,4 +1,5 @@
 import java.util.Scanner;
+//program to find the factorial of a given number.
 
 public class Question3 {
     public static void main(String[] args) {
