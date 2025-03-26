@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Portal - Employees</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+            <h2>Employee Management</h2>
+            <button class="logout-btn" onclick="logout()">Logout</button>
+
+            <h3>Add Employee</h3>
+            <input type="text" id="name" placeholder="Full Name">
+            <input type="text" id="department" placeholder="Department">
+            <input type="email" id="email" placeholder="Email">
+            <input type="number" id="salary" placeholder="Salary">
+            <button class="add-btn" onclick="addEmployee()">Add Employee</button>
+
+            <div  class="table-container"><h3>Employee List</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Department</th>
+                            <th>Email</th>
+                            <th>Salary</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="employeeTable"></tbody>
+                </table></div>
+        </div>
+    </div>
+
+   
+    <div id="editModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h3>Edit Employee</h3>
+            <input type="text" id="editName">
+            <input type="text" id="editDepartment">
+            <input type="email" id="editEmail">
+            <input type="number" id="editSalary">
+            <button class="update-btn" onclick="updateEmployee()">Update Employee</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
